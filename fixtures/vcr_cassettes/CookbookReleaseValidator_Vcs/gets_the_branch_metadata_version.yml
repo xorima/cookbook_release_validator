@@ -1,0 +1,113 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/xorimabot/xor_test_cookbook/contents/metadata.rb?ref=fork_foo
+    body:
+      encoding: US-ASCII
+      base64_string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.18.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - "<AUTH_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 25 Oct 2020 18:19:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      - Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"f6020ee0aaaa364dee25c9c1b36d31b85fee03b5"
+      Last-Modified:
+      - Sun, 25 Oct 2020 17:33:06 GMT
+      X-Oauth-Scopes:
+      - admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key,
+        admin:repo_hook, delete:packages, gist, notifications, read:packages, repo,
+        user, workflow, write:discussion, write:packages
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4938'
+      X-Ratelimit-Reset:
+      - '1603651072'
+      X-Ratelimit-Used:
+      - '62'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
+        X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Github-Request-Id:
+      - BA94:FB74:35194A:414309:5F95C1AC
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJuYW1lIjoibWV0YWRhdGEucmIiLCJwYXRoIjoibWV0YWRhdGEucmIiLCJz
+        aGEiOiJmNjAyMGVlMGFhYWEzNjRkZWUyNWM5YzFiMzZkMzFiODVmZWUwM2I1
+        Iiwic2l6ZSI6MjczLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3Jl
+        cG9zL3hvcmltYWJvdC94b3JfdGVzdF9jb29rYm9vay9jb250ZW50cy9tZXRh
+        ZGF0YS5yYj9yZWY9Zm9ya19mb28iLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0
+        aHViLmNvbS94b3JpbWFib3QveG9yX3Rlc3RfY29va2Jvb2svYmxvYi9mb3Jr
+        X2Zvby9tZXRhZGF0YS5yYiIsImdpdF91cmwiOiJodHRwczovL2FwaS5naXRo
+        dWIuY29tL3JlcG9zL3hvcmltYWJvdC94b3JfdGVzdF9jb29rYm9vay9naXQv
+        YmxvYnMvZjYwMjBlZTBhYWFhMzY0ZGVlMjVjOWMxYjM2ZDMxYjg1ZmVlMDNi
+        NSIsImRvd25sb2FkX3VybCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250
+        ZW50LmNvbS94b3JpbWFib3QveG9yX3Rlc3RfY29va2Jvb2svZm9ya19mb28v
+        bWV0YWRhdGEucmIiLCJ0eXBlIjoiZmlsZSIsImNvbnRlbnQiOiJibUZ0WlNB
+        Z0lDQWdJQ0FnSUNBZ0lDQWdKM2h2Y2w5MFpYTjBYMk52YjJ0aWIyOXJKd3B0
+        WVdsdWRHRnBcbmJtVnlJQ0FnSUNBZ0lDQW5XRzl5YVcxaEp3cHRZV2x1ZEdG
+        cGJtVnlYMlZ0WVdsc0lDQW5aRzl1YjNSMVxuYzJVbkNteHBZMlZ1YzJVZ0lD
+        QWdJQ0FnSUNBZ0lDZEJjR0ZqYUdVdE1pNHdKd3BrWlhOamNtbHdkR2x2XG5i
+        aUFnSUNBZ0lDQW5SRzhnYm05MElIVnpaU0VuQ21Ob1pXWmZkbVZ5YzJsdmJp
+        QWdJQ0FnSUNjK1BTQTFcbk5TNHdKd3AyWlhKemFXOXVJQ0FnSUNBZ0lDQWdJ
+        Q0FuYkc5c0p3b0tKWGNvZFdKMWJuUjFJSEpsWkdoaFxuZENCalpXNTBiM01n
+        Wm1Wa2IzSmhLUzVsWVdOb0lHUnZJSHh2YzN3S0lDQnpkWEJ3YjNKMGN5QnZj
+        d3BsXG5ibVFLXG4iLCJlbmNvZGluZyI6ImJhc2U2NCIsIl9saW5rcyI6eyJz
+        ZWxmIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy94b3JpbWFib3Qv
+        eG9yX3Rlc3RfY29va2Jvb2svY29udGVudHMvbWV0YWRhdGEucmI/cmVmPWZv
+        cmtfZm9vIiwiZ2l0IjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy94
+        b3JpbWFib3QveG9yX3Rlc3RfY29va2Jvb2svZ2l0L2Jsb2JzL2Y2MDIwZWUw
+        YWFhYTM2NGRlZTI1YzljMWIzNmQzMWI4NWZlZTAzYjUiLCJodG1sIjoiaHR0
+        cHM6Ly9naXRodWIuY29tL3hvcmltYWJvdC94b3JfdGVzdF9jb29rYm9vay9i
+        bG9iL2ZvcmtfZm9vL21ldGFkYXRhLnJiIn19
+  recorded_at: Sun, 25 Oct 2020 18:19:24 GMT
+recorded_with: VCR 6.0.0
