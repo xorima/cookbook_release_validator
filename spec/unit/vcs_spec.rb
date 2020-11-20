@@ -39,7 +39,4 @@ describe CookbookReleaseValidator::Vcs, :vcr do
     expect(@client.default_metadata_version).to eq '3.5.999'
   end
 
-  it 'gets the branch metadata version' do
-    expect(@client.branch_metadata_version).to eq 'lol'
-  end
 end
