@@ -44,7 +44,7 @@ module CookbookReleaseValidator
 
     def metadata_version(repo_name, ref)
       file = get_file_contents(repo_name, 'metadata.rb', ref)
-      m = file['content'].match(/\n(version\s+'(.+)')\n/m)
+      m = file['content'].match(/\n(version\s+'?(\d+\.\d+\.\d+)')\n/m)
       if m
         m[2]
       else
