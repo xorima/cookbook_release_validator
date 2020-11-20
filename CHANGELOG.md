@@ -1,5 +1,7 @@
 # Changelog
 
+## Unreleased
+
 ## 1.0.2 - *2020-11-20*
 
 - Capture the version number correctly using live semver
